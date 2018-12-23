@@ -10,12 +10,13 @@ namespace WebApplication4.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Changed";
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Changed";
 
             return View();
         }
